@@ -116,6 +116,21 @@
                 <jcuda.prefix>lib</jcuda.prefix>
             </properties>
         </profile>
+        <profile>
+            <id>linux-aarch64</id>
+            <activation>
+                <os>
+                    <family>unix</family>
+                    <arch>aarch64</arch>
+                </os>
+            </activation>
+            <properties>
+                <jcuda.os>linux</jcuda.os>
+                <jcuda.arch>aarch64</jcuda.arch>
+                <jcuda.ext>so</jcuda.ext>
+                <jcuda.prefix>lib</jcuda.prefix>
+            </properties>
+        </profile>
     </profiles>
 
 

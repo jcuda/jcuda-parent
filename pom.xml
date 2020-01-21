@@ -4,7 +4,7 @@
 
     <groupId>org.jcuda</groupId>
     <artifactId>jcuda-parent</artifactId>
-    <version>10.1.1</version>
+    <version>10.2.0</version>
     <packaging>pom</packaging>
 
     <properties>
